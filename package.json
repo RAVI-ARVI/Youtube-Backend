@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "this is youtube clone backend",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javasript",
@@ -12,5 +13,8 @@
     "node"
   ],
   "author": "ravi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
